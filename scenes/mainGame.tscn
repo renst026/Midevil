@@ -1,0 +1,70 @@
+[gd_scene load_steps=11 format=3 uid="uid://bm4fy36gw44wb"]
+
+[ext_resource type="Script" path="res://knight.gd" id="1_vs62x"]
+[ext_resource type="Texture2D" uid="uid://ucg5dmqem1ny" path="res://assets/sprites/Knight_for_realsies.png" id="2_7lctf"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_g73dl"]
+atlas = ExtResource("2_7lctf")
+region = Rect2(0, 1, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_vmbts"]
+atlas = ExtResource("2_7lctf")
+region = Rect2(24, 1, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_opam5"]
+atlas = ExtResource("2_7lctf")
+region = Rect2(48, 1, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_mckny"]
+atlas = ExtResource("2_7lctf")
+region = Rect2(72, 1, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6aqsr"]
+atlas = ExtResource("2_7lctf")
+region = Rect2(96, 1, 24, 24)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_oealr"]
+atlas = ExtResource("2_7lctf")
+region = Rect2(120, 1, 24, 24)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6avdu"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_g73dl")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_vmbts")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_opam5")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_mckny")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6aqsr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_oealr")
+}],
+"loop": true,
+"name": &"default",
+"speed": 7.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_dl6h0"]
+radius = 4.0
+height = 24.0
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+script = ExtResource("1_vs62x")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_6avdu")
+frame = 4
+frame_progress = 0.676608
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(1, 0)
+shape = SubResource("CapsuleShape2D_dl6h0")
