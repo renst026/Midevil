@@ -27,7 +27,7 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 	
-	if Input.is_action_just_pressed('ui_left'):
+	if Input.is_action_just_pressed('left'):
 		$Sprite2D.flip_h = true
-	if Input.is_action_just_pressed('ui_right'):
+	if Input.is_action_just_pressed('right'):
 		$Sprite2D.flip_h = false

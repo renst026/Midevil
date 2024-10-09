@@ -97,5 +97,5 @@ autoplay = "idle"
 frame_progress = 0.955602
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(-115, -85)
+position = Vector2(-91, -85)
 shape = SubResource("CapsuleShape2D_8q26k")
