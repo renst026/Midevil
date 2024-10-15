@@ -1,7 +1,8 @@
 extends CharacterBody2D
+signal hit
 
 const SPEED = 300.0
-const JUMP_VELOCITY = -400.0
+const JUMP_VELOCITY = -550.0
 func _physics_process(delta: float) -> void:
 	 #Walking animation 
 	if (velocity.x > 1 || velocity.x < -1):
@@ -31,3 +32,9 @@ func _physics_process(delta: float) -> void:
 		$Sprite2D.flip_h = true
 	if Input.is_action_just_pressed('right'):
 		$Sprite2D.flip_h = false
+
+	
+
+func _on_area_2d_area_entered(area: Area2D) -> void:
+	hit.emit()
+	

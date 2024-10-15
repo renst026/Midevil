@@ -1,10 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1728484255
-coin.tscn::PackedScene::554764909155613723::1728419017::0::1::::<><>::uid://ngca3vwqa2l1::::res://assets/sprites/coin.png
+::res://::1729015533
+coin.gd::GDScript::-1::1728486251::0::1::::<>Area2D<>::
+coin.tscn::PackedScene::554764909155613723::1728608876::0::1::::<><>::res://coin.gd<>uid://ngca3vwqa2l1::::res://assets/sprites/coin.png
 icon.svg::CompressedTexture2D::3132557945446731887::1727738800::1727791133::1::::<><>::
-knight.tscn::PackedScene::3086483707733117::1728410278::0::1::::<><>::res://scenes/Knight.gd<>uid://5lgujxws5hwu::::res://assets/sprites/sprite sheet.png<>uid://ucg5dmqem1ny::::res://assets/sprites/Knight_for_realsies.png
+knight.tscn::PackedScene::3086483707733117::1728608876::0::1::::<><>::res://scenes/Knight.gd<>uid://5lgujxws5hwu::::res://assets/sprites/sprite sheet.png<>uid://ucg5dmqem1ny::::res://assets/sprites/Knight_for_realsies.png
 README.md::TextFile::-1::1727738800::0::1::::<><>::
-::res://assets/::1728419321
+::res://assets/::1729015533
 ::res://assets/fonts/::1727791133
 PixelOperator8-Bold.ttf::FontFile::2954414192622874536::1727789982::1727791133::1::::<><>::
 PixelOperator8.ttf::FontFile::926973815259467081::1727789982::1727791133::1::::<><>::
@@ -17,7 +18,7 @@ hurt.wav::AudioStreamWAV::2210101541802177834::1727789982::1727791139::1::::<><>
 jump.wav::AudioStreamWAV::4050267692055291480::1727789982::1727791139::1::::<><>::
 power_up.wav::AudioStreamWAV::7709181845277572698::1727789982::1727791139::1::::<><>::
 tap.wav::AudioStreamWAV::3796102827936314585::1727789982::1727791139::1::::<><>::
-::res://assets/sprites/::1728418266
+::res://assets/sprites/::1729015533
 background0.png::CompressedTexture2D::8305949753339902248::1727958508::1727958509::1::::<><>::
 coin.png::CompressedTexture2D::924964171920001660::1727789982::1727791133::1::::<><>::
 fruit.png::CompressedTexture2D::8463235419394819942::1727789982::1727791133::1::::<><>::
@@ -28,9 +29,10 @@ platforms.png::CompressedTexture2D::1373530529710177521::1727789982::1727791133:
 slime_green.png::CompressedTexture2D::8538197528212801044::1727789982::1727791133::1::::<><>::
 slime_purple.png::CompressedTexture2D::4312901164388684853::1727789982::1727791133::1::::<><>::
 sprite sheet.png::CompressedTexture2D::2128773991535799980::1727988240::1727988240::1::::<><>::
+spriteSheetV5.png::CompressedTexture2D::4950074281844460079::1729015515::1729015533::1::::<><>::
 The Knight main sprites - atlas0 #00000357.png::CompressedTexture2D::4385782503114377327::1727789982::1727791139::1::::<><>::
 Tree (1).png::CompressedTexture2D::871724697911804081::1727975163::1727975172::1::::<><>::
 world_tileset.png::CompressedTexture2D::1058018028433577270::1727789982::1727791133::1::::<><>::
-::res://scenes/::1728419420
-Knight.gd::GDScript::-1::1728409689::0::1::::<>CharacterBody2D<>::
-mainGame.tscn::PackedScene::188446441370048721::1728419420::0::1::::<><>::uid://dqlp1qo16ubka::::res://assets/sprites/background0.png<>uid://mojgcindll0l::::res://assets/sprites/Tree (1).png<>uid://c0u5jndsa7kwh::::res://assets/sprites/Ground.png<>uid://bq3mbaljlp2::::res://knight.tscn<>uid://h5y5q60tgavr::::res://coin.tscn
+::res://scenes/::1728610095
+Knight.gd::GDScript::-1::1728591583::0::1::::<>CharacterBody2D<>::
+mainGame.tscn::PackedScene::188446441370048721::1728610095::0::1::::<><>::uid://dqlp1qo16ubka::::res://assets/sprites/background0.png<>uid://mojgcindll0l::::res://assets/sprites/Tree (1).png<>uid://c0u5jndsa7kwh::::res://assets/sprites/Ground.png<>uid://bq3mbaljlp2::::res://knight.tscn<>uid://ttl32klyhuh2::::res://assets/sprites/platforms.png<>uid://h5y5q60tgavr::::res://coin.tscn

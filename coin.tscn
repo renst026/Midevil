@@ -102,7 +102,7 @@ radius = 1.79161
 script = ExtResource("1_b7hw7")
 
 [node name="CoinAnimation" type="AnimatedSprite2D" parent="."]
-position = Vector2(210, 366)
+position = Vector2(0, 1)
 scale = Vector2(3, 3)
 sprite_frames = SubResource("SpriteFrames_a0j24")
 autoplay = "default"
@@ -110,7 +110,7 @@ frame = 3
 frame_progress = 0.202938
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(210, 366)
+position = Vector2(0, 1)
 scale = Vector2(9, 9)
 shape = SubResource("CircleShape2D_4nt1f")
 
